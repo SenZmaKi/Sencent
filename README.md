@@ -4,7 +4,6 @@ Speech Accent Detection
 The human speaks a language with an accent. A particular accent necessarily reflects a person's linguistic background. The model defines accent based audio record. The result of the model could be used to determine accents and help decrease accents to English learning students and improve accents by training.
 
 
-
 ## Outline
 <img src="img/speech_vovels.jpeg" width="900">
 
