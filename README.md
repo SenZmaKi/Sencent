@@ -17,7 +17,6 @@ The human speaks a language with an accent. A particular accent necessarily refl
     - [CNN](#cnn--convolution-neural-network)
     - [LSTM](#lstm--long-short-term-memory)
 - [Incorrect Classifications](#incorrect-classifications)
-- [Future Work](#future-work)
 
 
 ### About 
@@ -128,10 +127,3 @@ Going back and listening to the files where my model failed brought two conclusi
  + Most of the remaining misclassified data was problematic because the accent seemed to be a blend, indicating that the speaker may also be fluent in another language.
 
 While it would be best if the model could also correctly classify these blended accents, the mixed accents may not pose a severe problem. Speech recognition systems may not have a problem picking up what these speakers are saying. For example, a speech recognition system trained mainly on US data may be able to pick up reasonably well on a speaker from the UK who has spent a fair amount of time in the US. As long as the model is classifying speakers with more traditional UK accents, we can build another speech recognition model for these speakers.
-
-## Future Work
-
-Try to classify more accents, instead of native and non-native accents. It would ultimately like to train CNN to classify most of the accents with more datasets.
-
-Unfortunately, the dataset is not enough for multi-accent detection.
-
